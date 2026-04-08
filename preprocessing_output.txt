@@ -1,0 +1,39 @@
+Proportion of missing values in each column:
+spec_B     0.998904
+rot_per    0.977243
+albedo     0.908914
+H          0.000341
+dtype: float64
+
+Original rows: 1520120
+Cleaned rows: 1249
+Rows removed: 1518871
+
+Class distribution:
+spec_B
+S    499
+C    301
+X    238
+B     56
+L     35
+K     32
+V     27
+A     15
+T     14
+Q     10
+D      9
+O      6
+R      4
+U      3
+Name: count, dtype: int64
+
+Feature summary:
+                 H       albedo      rot_per
+count  1249.000000  1249.000000  1249.000000
+mean     11.371081     0.185348     2.517858
+std       2.595608     0.143962     0.984833
+min       3.250000     0.015000     1.173070
+25%       9.440000     0.059000     1.861907
+50%      11.630000     0.168000     2.313030
+75%      12.910000     0.258000     2.913220
+max      21.600000     1.000000     7.492760
